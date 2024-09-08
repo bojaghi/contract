@@ -1,2 +1,3 @@
-# interface
-Contract
+# Bojaghi Interface
+
+Interface contract
