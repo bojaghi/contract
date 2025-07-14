@@ -11,4 +11,6 @@ interface Container extends ContainerInterface
     public function getMain(): string;
 
     public function getVersion(): string;
+
+    public function parseCallback(string|array|callable $callback): ?callable;
 }
