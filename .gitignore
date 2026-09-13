@@ -8,3 +8,5 @@
 /tests-core
 /tests-lib
 /vendor
+
+composer.lock
