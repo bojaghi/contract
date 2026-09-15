@@ -26,23 +26,6 @@ interface Container extends ContainerInterface {
 	public function call( callable|array|string $to_call, mixed $args = null ): mixed;
 
 	/**
-	 * Get the main file name
-	 *
-	 * Plugin: the main file path.
-	 * Theme: the main style.css path.
-	 *
-	 * @return string
-	 */
-	public function get_main(): string;
-
-	/**
-	 * Get the version
-	 *
-	 * @return string
-	 */
-	public function get_version(): string;
-
-	/**
 	 * Parse callback
 	 *
 	 * Available forms:
@@ -58,6 +41,8 @@ interface Container extends ContainerInterface {
 	public function parse_callback( string|array|callable $callback ): ?callable;
 
 	/**
+	 * Get instance by its id
+	 *
 	 * @param string $id    identifier to fetch.
 	 * @param mixed  $args  arguments.
 	 * @param bool   $reuse true when instance is reused, false to create fresh one.
