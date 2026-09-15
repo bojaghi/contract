@@ -4,6 +4,10 @@ Interface contract
 
 ## CHANGELOG
 
+### 2.0.1
+
+- Remove get_main, get_version. 
+
 ### 2.0.0
 
 - As of 2.0.0, the coding standard is updated to WordPress coding standard.
