@@ -49,12 +49,12 @@ interface Container extends ContainerInterface {
 	 *
 	 * @return mixed
 	 */
-	public function spawn( string $id, mixed $args = null, bool $reuse = true ): mixed;
+	public function instantiate( string $id, mixed $args = null, bool $reuse = true ): mixed;
 
 	/**
-	 * Forget instances by its id
+	 * Drop instances by its id
 	 *
 	 * @param string $id identifier of instance to forget.
 	 */
-	public function forget( string $id ): void;
+	public function drop( string $id ): void;
 }
