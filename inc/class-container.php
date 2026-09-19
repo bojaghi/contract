@@ -43,13 +43,13 @@ interface Container extends ContainerInterface {
 	/**
 	 * Get instance by its id
 	 *
-	 * @param string $id    identifier to fetch.
-	 * @param mixed  $args  arguments.
-	 * @param bool   $reuse true when instance is reused, false to create fresh one.
+	 * @param string    $id    identifier to fetch.
+	 * @param mixed     $args  arguments.
+	 * @param bool|null $reuse true when instance is reused, false to create fresh one.
 	 *
 	 * @return mixed
 	 */
-	public function instantiate( string $id, mixed $args = null, bool $reuse = true ): mixed;
+	public function instantiate( string $id, mixed $args = null, bool|null $reuse = null ): mixed;
 
 	/**
 	 * Drop instances by its id

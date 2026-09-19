@@ -4,6 +4,10 @@ Interface contract
 
 ## CHANGELOG
 
+### 2.0.3
+
+- Update Container interface.
+
 ### 2.0.2
 
 - Update Container interface.
