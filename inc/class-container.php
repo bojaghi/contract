@@ -36,9 +36,9 @@ interface Container extends ContainerInterface {
 	 *
 	 * @param string|array|callable $callback string, function, and class method.
 	 *
-	 * @return callable|null
+	 * @return string|array|callable|null
 	 */
-	public function parse_callback( string|array|callable $callback ): ?callable;
+	public function parse_callback( string|array|callable $callback ): string|array|callable|null;
 
 	/**
 	 * Get instance by its id

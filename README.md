@@ -4,9 +4,13 @@ Interface contract
 
 ## CHANGELOG
 
+### 2.0.4
+
+- Update Container::parse_callback interface.
+
 ### 2.0.3
 
-- Update Container interface.
+- Update Container::instantiate interface.
 
 ### 2.0.2
 
@@ -14,7 +18,7 @@ Interface contract
 
 ### 2.0.1
 
-- Remove get_main, get_version. 
+- Remove get_main, get_version.
 
 ### 2.0.0
 
